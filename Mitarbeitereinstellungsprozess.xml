@@ -13,7 +13,7 @@
 }
 
 form.form-schulung .container-schulung {
-	color: #7B61A1 !important;
+	color: #7f7f7f !important;
 	
 }
 
@@ -209,7 +209,7 @@ form.form-schulung .in-textarea {
 		<input type="text" name="processInstanceName" id="processInstanceName" style="display:none" />
 		<!-- START TOP BAR			in die letzten beiden Spalten das Logo einfügen  -->
 
-			<div class="row schulung-top-bar">
+			<div class="row schulung-top-bar ">
 				<div class="col-lg-8 col-md-8">
 							<span>Mitarbeitereinstellungsprozess</span>
 
@@ -229,8 +229,17 @@ form.form-schulung .in-textarea {
 
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
+			
 				<!-- Section1 -->
 				<div class="section" id="section_1">
+				
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Mitarbeiterdaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
 				
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
@@ -278,11 +287,47 @@ form.form-schulung .in-textarea {
 					</div>
 					</div>
 					</div>
+					
+					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="Mail_Adresse">Bewerber E-Mail</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+				 </div>
+				</div>
+					
+					<!--2 Leerzeilen-->
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 					<!-- Section1 -->
 					
 					<!-- Section2 -->
 					
+					
+					
 					<div class="section" id="section_2">
+					
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kundenspezifische Daten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
 					<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Kunde">Kunde</label>
@@ -316,7 +361,20 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 					
-					<div class="col-lg-2 col-md-2">
+					
+				 </div>
+				 
+				 <div class="row mg-top-1">
+				 <div class="col-lg-2 col-md-2">
+						<label for="VK">Verkaufspreis/Abrechnungsmodalität</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<textarea name="VK" id="VK" rows ="5" class="form-control"></textarea>
+					</div>
+					
+				 
+				 
+				 <div class="col-lg-1 col-md-1">
 						<label for="Projektbeschreibung">Projektbeschreibung</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
@@ -324,9 +382,33 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
-				 </div>
+					</div>
+					
+					
 				 
-				 <div class="row mg-top-1">
+				 
+				 
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Mitarbeitervertragsdaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+				
+					<div class="row mg-top-1">
 					<div class="col-lg-2 col-md-2">
 						<label for="Einstellungsdatum">Projektbeginn/Einstellungsdatum</label>
 					</div>
@@ -353,6 +435,11 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				
 			<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
@@ -400,6 +487,31 @@ form.form-schulung .in-textarea {
 					</div>
 					</div>
 					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Sicherheitsüberprüfung</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 					
 					<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1 ">
@@ -423,6 +535,11 @@ form.form-schulung .in-textarea {
 						<label for="S3">S3</label>
 					</div>
 					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				 
 					
 					
@@ -456,6 +573,32 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
 				</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Vertragsunterschriftstermindaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
 				</div>
 				
 				<!--section4-->
@@ -496,19 +639,35 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
 				</div>
-				<div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="Mail_Adresse">Bewerber E-Mail</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
-					</div>
-					<div class="col-lg-8 col-md-8">
-					</div>
-				 </div>
-				</div>
+				
 				
 				<!--section5-->
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Daten für interne Vorbereitung</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				
 				<div class="section" id="section_5">
 				<div class="row mg-top-1">
