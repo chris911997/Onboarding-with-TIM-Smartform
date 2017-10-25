@@ -1,0 +1,288 @@
+<!-- START FORM -->
+
+<form class="form-inline form-schulung" data-bootstrap="true" id="schulung_form" role="form" data-toggle="validator">
+
+<!--<link rel="stylesheet" type="text/css" href="/loom-portal/resource/innogy-smartform.css">-->
+
+	<style type="text/css">
+		
+		
+		form.form-schulung *{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
+	font-size: 13px !important;
+}
+
+form.form-schulung .container-schulung {
+	color: #7f7f7f !important;
+	
+}
+
+form.form-schulung .container-schulung .schulung-top-bar div {
+	height: 100px;
+	background-color: #FFFFFF;
+	color: #7B61A1;
+	font-weight: bold;
+	padding: 10px;
+	padding-left: 2.5%;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+	font-size: 24px !important;
+	font-weight: bold;
+}
+
+form.form-schulung .in-subhead-orange{
+	height: 31px;
+	line-height: 31px;
+	background-color: #7B61A1;
+	color: #ffffff;
+	border-radius: 0px !important;
+	font-weight: bold;
+	font-size: 14px !important;
+	text-align:left !important;
+}
+
+form.form-schulung .section{
+	background-color: #FFFFFF;
+}
+
+form.form-schulung .container-schulung form {
+	margin-top: 150px;
+}
+
+form.form-schulung .mg-lft-1 {
+	margin-left: 1%;
+}
+
+form.form-schulung .mg-lft-2 {
+	margin-left: 5%;
+}
+
+form.form-schulung .mg-lft-3 {
+	margin-left: 7.5%;
+}
+
+form.form-schulung .mg-lft-4 {
+	margin-left: 10%;
+}
+
+form.form-schulung .mg-lft-5 {
+	margin-left: 15%;
+}
+
+form.form-schulung .mg-lft-px-1 {
+	margin-left: -2px;
+}
+
+form.form-schulung .mg-rgt-1 {
+	margin-right: 5%;
+}
+
+form.form-schulung .mg-rgt-2 {
+	margin-right: 15%;
+}
+
+form.form-schulung .mg-rgt-px-1 {
+	margin-right: 5px;
+}
+
+form.form-schulung .mg-top-0 {
+	margin-top: 5px;
+}
+
+form.form-schulung .mg-top-1 {
+	margin-top: 10px;
+}
+
+form.form-schulung .mg-top-2 {
+	margin-top: 20px;
+}
+
+
+form.form-schulung .mg-bot-0 {
+	margin-bottom: 0px;
+}
+
+form.form-schulung .mg-bot-1 {
+	margin-bottom: 10px;
+}
+
+form.form-schulung .mg-bot-2 {
+	margin-bottom: 20px;
+}
+
+form.form-schulung .mg-bot-3 {
+	margin-bottom: 30px;
+}
+
+form.form-schulung .container-schulung .form-body {
+	height: auto;
+	background-color: #FFFFFF;
+	margin-bottom: 100px;
+}
+
+
+/* form.form-schulung .container {
+	width: 100% !important;
+} */
+
+
+/* form.form-schulung .container-schulung .input-text { */
+	/* width: 75%; */
+/* } */
+
+
+form.form-schulung .container-schulung label {
+	font-weight: normal;
+	margin: 0;
+	
+}
+
+
+form.form-schulung .container-schulung .form-control:not(textarea),.input-group,.form-control select {
+	border-radius: 0px;
+	width: 95%;
+	height: 22px;
+}
+
+form.form-schulung .form-control[disabled] {
+	color: #7f7f7f !important;
+	background-color: #ecf0f1;
+}
+
+
+form.form-schulung textarea {
+	border-radius: 0px;
+	border-color: #9F9F9F;
+	width: 95%;
+	padding: 2px;
+	font-size: 12px !important;
+
+
+}
+
+
+form.form-schulung input[type=checkbox], input[type=radio] {
+    margin: 0 0 0;
+	vertical-align: middle;
+}
+
+
+
+/* TIM Buttons in Smartform */
+form div.buttonBar button#saveSmartformAndSetTaskDone {
+	background: #49a834 !important;
+	color: #FFFFFF !important;
+}
+
+form.form-schulung .container-schulung [required="required"] {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+form.form-schulung .container-schulung select {
+	border-color: #9F9F9F;
+	height: 22px !important;
+	padding: 2px;
+}
+
+
+
+form.form-schulung .in-textarea {
+	/*height:5em !important;
+	width: 18.7em !important;
+	padding: 0px 1.2em !important;*/
+
+		border-color: #9F9F9F;
+
+}
+
+
+	</style>
+
+	
+	
+	
+	
+	<!-- SAFETY CLASS FOR TIM -->
+	<div class="main-schulung">
+		<input style="display:none" id="processInstanceName" name="processInstanceName"/>
+		<input type="text" name="processInstanceName" id="processInstanceName" style="display:none" />
+		<!-- START TOP BAR			in die letzten beiden Spalten das Logo einfügen  -->
+
+			<div class="row schulung-top-bar">
+				<div class="col-lg-8 col-md-8">
+							<span>Mitarbeiteranlageprozess</span>
+
+				</div>
+
+				<div class="col-lg-2 col-md-2">
+					<img  src="/loom-portal/resource/compusafe_logo.svg" alt="schulung"/>
+				</div>
+				<div class="col-lg-2 col-md-2">
+				</div>
+			</div>
+
+		<!-- END TOP BAR -->
+
+		<!-- START FORM-->
+		<div class="container-schulung" >
+
+			<!-- START FORM BODY -->
+			<div class="form-body-innogy col-lg-12 col-md-12">
+
+			
+			<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="Geschlecht">Geschlecht</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<select name="Geschlecht" id="Geschlecht" class="form-control">
+							<option value="">Bitte Wählen</option>
+							<option value="herr">Herr</option>
+							<option value="frau">Frau</option>
+							</select>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
+					</div>
+					</div>
+					
+					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="nachname">Nachname</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="nachname" id="nachname" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-1 col-md-1 ">
+					<label for="vorname">Vorname</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="vorname" id="vorname" class="form-control input-sm"/>
+					</div>
+					</div>
+					
+					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="Mail_Adresse">Mail Adresse</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+				 </div>
+
+			
+			
+			
+
+
+
+			</div>
+			<!-- END FORM BODY -->
+
+		</div>
+		<!-- END FORM -->
+	</div>
+
+</form>
