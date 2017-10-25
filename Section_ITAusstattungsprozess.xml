@@ -1,0 +1,87 @@
+<section-node-mapping>
+
+  <node-mapping>
+    <section name="section_1">
+      <read assignment="*"/>
+      <write assignment="swimlane(Vertrieb)"/>
+    </section>
+	
+	<section name="section_2">
+      <read assignment="swimlane(Vertrieb)"/>
+      <write assignment="swimlane(Vertrieb)"/>
+    </section>
+	
+	<section name="section_3">
+      <read assignment="swimlane(Vertrieb);swimlane(IT)"/>
+      <write assignment="swimlane(Vertrieb)"/>
+    </section>
+	
+	<section name="section_4">
+      <read assignment="swimlane(Vertrieb);swimlane(Empfang)"/>
+      <write assignment="swimlane(Vertrieb)"/>
+    </section>
+
+	
+  </node-mapping>
+  
+  
+  
+  <node-mapping name="Hardware Bedarf angeben">
+	 
+	
+	<section name="section_2">
+      <read assignment="swimlane(Vertrieb)"/>
+      <write assignment="swimlane(Vertrieb)"/>
+    </section>
+	
+	<section name="section_3">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	<section name="section_4">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+  </node-mapping>
+  
+ 
+  <node-mapping name="Informationen zum Smartphone bzw Handy ergaenzen">
+	 
+	
+	<section name="section_2">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	<section name="section_3">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	<section name="section_4">
+      <read assignment="*"/>
+      <write assignment="*"/>
+    </section>
+  </node-mapping>
+ 
+	<node-mapping name="Informationen zum Laptop ergaenzen">
+	 
+	
+	<section name="section_2">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	<section name="section_3">
+      <read assignment="*"/>
+      <write assignment="*"/>
+    </section>
+	
+	<section name="section_4">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+  </node-mapping>
+ 
+</section-node-mapping>
