@@ -230,9 +230,9 @@ form.form-schulung .in-textarea {
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
 			
-				<!-- Section1 -->
-				<div class="section" id="section_1">
 				
+				
+	<div class="section" id="section_1">
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Mitarbeiterdaten</span>
@@ -286,11 +286,11 @@ form.form-schulung .in-textarea {
 						<input type="text" name="vorname" id="vorname" class="form-control input-sm"/>
 					</div>
 					</div>
-					</div>
+					
 					
 					<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Mail_Adresse">Bewerber E-Mail</label>
+						<label for="Mail_Adresse">E-Mail Adresse</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
@@ -298,7 +298,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-				</div>
+				
 					
 					<!--2 Leerzeilen-->
 					
@@ -312,14 +312,14 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-					<!-- Section1 -->
-					
-					<!-- Section2 -->
 					
 					
+	</div>				
 					
-					<div class="section" id="section_2">
 					
+					
+					
+	<div class="section" id="section_2">				
 					<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Kundenspezifische Daten</span>
@@ -399,7 +399,9 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-				
+	</div>
+
+	<div class="section" id="section_3">
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Mitarbeitervertragsdaten</span>
@@ -498,7 +500,9 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-				
+	</div>
+
+	<div class="section" id="section_4">
 					<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Sicherheitsüberprüfung</span>
@@ -547,13 +551,13 @@ form.form-schulung .in-textarea {
 					</div>
 				 </div>
 					
-					
+	</div>				
 
-				</div>
 				
-			<!--Section3-->
+				
 			
-				<div class="section" id="section_3">
+			
+	<div class="section" id="section_5">			
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Recruiter">zuständiger Recruiter</label>
@@ -573,7 +577,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
 				</div>
-				</div>
+				
 				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
@@ -586,7 +590,9 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-				
+	</div>			
+	
+	<div class="section" id="section_6">
 					<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Vertragsunterschriftstermindaten</span>
@@ -601,8 +607,8 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
-				<!--section4-->
-				<div class="section" id="section_4">
+				
+				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
@@ -654,7 +660,9 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-				
+	</div>
+
+	<div class="section" id="section_7">
 					<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Daten für interne Vorbereitung</span>
@@ -669,7 +677,9 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
-				<div class="section" id="section_5">
+	</div>
+
+	<div class="section" id="section_8">
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Personalnummer">PersonalNummer</label>
@@ -691,7 +701,8 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-				 
+	</div>
+	<div class="section" id="section_9">	
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Tarif">E-Kategorie(Tarif)</label>
@@ -702,7 +713,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-				
+	</div>			
 				
 				
 				
@@ -711,7 +722,7 @@ form.form-schulung .in-textarea {
 			
 
 
-			</div>
+			
 			
 			</div>
 			<!-- END FORM BODY -->
