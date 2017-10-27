@@ -263,7 +263,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<select name="Titel" id="Titel" class="form-control">
 							<option value="">Bitte Wählen</option>
-							<option value=""> </option>
+							<option value="kein_Titel">kein Titel </option>
 							<option value="Wert_1">Dr.</option>
 							<option value="Wert_2">Prof. Dr.</option>
 						</select>
