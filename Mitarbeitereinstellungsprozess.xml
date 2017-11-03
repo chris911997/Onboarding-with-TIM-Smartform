@@ -720,7 +720,7 @@ form.form-schulung .in-textarea {
 				
 		<div class="row mg-top-1">
 				
-					<div class="col-lg-2 col-md-2">
+					<div class="col-lg-1 col-md-1">
 						<label for="Wert">Erklärung:</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
@@ -731,7 +731,24 @@ form.form-schulung .in-textarea {
 
 
 			
-	</div>		
+	</div>
+
+	<div class="section" id="section_11">			
+				
+		<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="Erklaerung">Erklärung:</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<span id="Erklaerung">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die aufgezählten Dokumente dem Vertrag beilegen und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Dokument anhängen </span>
+					</div>
+					</div>	
+			
+
+
+			
+	</div>
 			</div>
 			<!-- END FORM BODY -->
 
