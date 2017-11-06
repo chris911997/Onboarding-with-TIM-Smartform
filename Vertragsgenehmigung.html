@@ -230,6 +230,15 @@ form.form-schulung .in-textarea {
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
 				
+				<div class="section" id="section_1">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Mitarbeiterdaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+				
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Geschlecht">Geschlecht</label>
@@ -252,7 +261,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<select name="Titel" id="Titel" class="form-control">
 							<option value="">Bitte Wählen</option>
-							<option value=""> </option>
+							<option value="kein_Titel">kein Titel </option>
 							<option value="Wert_1">Dr.</option>
 							<option value="Wert_2">Prof. Dr.</option>
 						</select>
@@ -276,18 +285,70 @@ form.form-schulung .in-textarea {
 					</div>
 					</div>
 					
+					
+					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="Mail_Adresse">E-Mail Adresse</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+				 </div>
+				
+					
+					<!--2 Leerzeilen-->
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+					
+					
+	</div>				
+					
+					
+					
+					
+	<div class="section" id="section_2">				
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kundenspezifische Daten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
 					<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Kunde">Kunde</label>
 					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="Kunde" id="Kunde" class="form-control input-sm"/>
+					<div class="col-lg-3 col-md-3 ">
+						
+						<input type="radio" name="Kunde" id="Siemens" value="Siemens" title="Kunde"/>
+						<label for="Siemens">Siemens&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="SFS" value="SFS" title="Kunde"/>
+						<label for="SFS">SFS&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="BWI" value="BWI" title="Kunde"/>
+						<label for="BWI">BWI&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="MAN" value="MAN" title="Kunde"/>
+						<label for="MAN">MAN&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="Allianz" value="Allianz" title="Kunde"/>
+						<label for="Allianz">Allianz&#160;&#160;&#160;&#160;</label>
+						
 					</div>
 								
-					<div class="col-lg-1 col-md-1 mg-top-1 ">
+					<div class="col-lg-1 col-md-1 ">
 						<label for="Vertragsform">Vertragsform</label>
 					</div>
-					<div class="col-lg-2 col-md-2 mg-top-1 ">
+					<div class="col-lg-2 col-md-2 ">
 						<input type="radio" name="Vertragsform" id="Dienstleistung" value="Dienstleistung" title="Vertragsform"/>
 						<label for="Dienstleistung">Dienstleistung</label>
 						<input type="radio" name="Vertragsform" id="ANÜ" value="ANÜ" title="Vertragsform"/>
@@ -309,7 +370,20 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 					
-					<div class="col-lg-2 col-md-2">
+					
+				 </div>
+				 
+				 <div class="row mg-top-1">
+				 <div class="col-lg-2 col-md-2">
+						<label for="VK">Verkaufspreis/Abrechnungsmodalität</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<textarea name="VK" id="VK" rows ="5" class="form-control"></textarea>
+					</div>
+					
+				 
+				 
+				 <div class="col-lg-1 col-md-1">
 						<label for="Projektbeschreibung">Projektbeschreibung</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
@@ -317,9 +391,35 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
-				 </div>
+					</div>
+					
+					
 				 
-				 <div class="row mg-top-1">
+				 
+				 
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+	</div>
+
+	<div class="section" id="section_3">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Mitarbeitervertragsdaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+				
+					<div class="row mg-top-1">
 					<div class="col-lg-2 col-md-2">
 						<label for="Einstellungsdatum">Projektbeginn/Einstellungsdatum</label>
 					</div>
@@ -346,6 +446,11 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				
 			<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
@@ -391,8 +496,77 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
+					</div>
 					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
 				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+	</div>
+
+	<div class="section" id="section_4">
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Sicherheitsüberprüfung</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+					
+					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1 ">
+						<label>SÜ-benötigt</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<input type="checkbox" value="true" name="SUE" id="SUE"/>
+						<label for="SUE">JA</label>
+					</div>
+					
+					
+					<div class="col-lg-1 col-md-1 ">
+						<label for="Sicherheitsstufe">Sicherheitsstufe</label>
+					</div>
+					<div class="col-lg-1 col-md-1 ">
+						<input type="radio" name="Sicherheitsstufe" id="S1" value="S1" title="Sicherheitsstufe"/>
+						<label for="S1">S1&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Sicherheitsstufe" id="S2" value="S2" title="Sicherheitsstufe"/>
+						<label for="S2">S2&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Sicherheitsstufe" id="S3" value="S3" title="Sicherheitsstufe"/>
+						<label for="S3">S3</label>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				 
+					
+					
+					<div class="col-lg-8 col-md-8">
+					</div>
+				 </div>
+					
+	</div>				
+
+				
+				
+			
+			
+	<div class="section" id="section_5">			
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Recruiter">zuständiger Recruiter</label>
@@ -412,6 +586,38 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
 				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+	</div>			
+	
+	<div class="section" id="section_6">
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Vertragsunterschriftstermindaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+					</div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				
+				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
@@ -448,17 +654,41 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
 				</div>
-				<div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="Mail_Adresse">Bewerber E-Mail</label>
+				
+				
+				<!--section5-->
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+	</div>
+
+	<div class="section" id="section_7">
+					<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Daten für interne Vorbereitung</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<input type="text" name="Mail_Adresse" id="Mail_Adresse" class="form-control input-sm"/>
 					</div>
-					<div class="col-lg-8 col-md-8">
 					</div>
-				 </div>
+					
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				
+	</div>
+
+	<div class="section" id="section_8">
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Personalnummer">PersonalNummer</label>
@@ -480,7 +710,8 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-				 
+	</div>
+	<div class="section" id="section_9">	
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Tarif">E-Kategorie(Tarif)</label>
@@ -491,6 +722,14 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
+	</div>			
+				
+				
+	
+
+	
+	
+	
 				
 				
 				
