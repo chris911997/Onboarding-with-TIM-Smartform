@@ -344,9 +344,19 @@ form.form-schulung .in-textarea {
 						<label for="MAN">MAN&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="Kunde" id="Allianz" value="Allianz" title="Kunde"/>
 						<label for="Allianz">Allianz&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="andererKunde" value="andererKunde" title="Kunde"/>
+						<label for="andererKunde">anderer Kunde&#160;&#160;&#160;&#160;</label>
 						
 					</div>
-								
+					
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="aKunde" id="aKunde" class="form-control input-sm"/>
+					</div>
+					
+					</div>
+					
+					<div class="row mg-top-1">
+					
 					<div class="col-lg-1 col-md-1 ">
 						<label for="Vertragsform">Vertragsform</label>
 					</div>
@@ -358,6 +368,7 @@ form.form-schulung .in-textarea {
 						<input type="radio" name="Vertragsform" id="offen" value="offen" title="Vertragsform"/>
 						<label for="offen">offen</label>
 					</div>
+					
 					<div class="col-lg-8 col-md-8">
 					</div>
 					</div>
