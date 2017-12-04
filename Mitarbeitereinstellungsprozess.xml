@@ -356,6 +356,15 @@ form.form-schulung .in-textarea {
 					</div>
 					
 					<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="Abteilung">Abteilung</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="Abteilung" id="Abteilung" class="form-control input-sm"/>
+					</div>
+					</div>
+					
+					<div class="row mg-top-1">
 					
 					<div class="col-lg-1 col-md-1 ">
 						<label for="Vertragsform">Vertragsform</label>
@@ -390,7 +399,7 @@ form.form-schulung .in-textarea {
 				 <div class="col-lg-2 col-md-2">
 						<label for="VK">Verkaufspreis/Abrechnungsmodalität</label>
 					</div>
-					<div class="col-lg-1 col-md-1">
+					<div class="col-lg-2 col-md-2">
 						<textarea name="VK" id="VK" rows ="5" class="form-control"></textarea>
 					</div>
 					
