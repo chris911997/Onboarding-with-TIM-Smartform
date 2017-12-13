@@ -332,7 +332,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-1 col-md-1">
 						<label for="Kunde">Kunde</label>
 					</div>
-					<div class="col-lg-3 col-md-3 ">
+					<div class="col-lg-4 col-md-4 ">
 						
 						<input type="radio" name="Kunde" id="Siemens" value="Siemens" title="Kunde"/>
 						<label for="Siemens">Siemens&#160;&#160;&#160;&#160;</label>
@@ -344,8 +344,10 @@ form.form-schulung .in-textarea {
 						<label for="MAN">MAN&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="Kunde" id="Allianz" value="Allianz" title="Kunde"/>
 						<label for="Allianz">Allianz&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="Kunde" id="Eurofighter" value="Eurofighter" title="Kunde"/>
+						<label for="Eurofighter">Eurofighter&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="Kunde" id="andererKunde" value="andererKunde" title="Kunde"/>
-						<label for="andererKunde">anderer Kunde&#160;&#160;&#160;&#160;</label>
+						<label for="andererKunde">anderer Kunde</label>
 						
 					</div>
 					
@@ -372,8 +374,8 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2 ">
 						<input type="radio" name="Vertragsform" id="Dienstleistung" value="Dienstleistung" title="Vertragsform"/>
 						<label for="Dienstleistung">Dienstleistung</label>
-						<input type="radio" name="Vertragsform" id="ANÜ" value="ANÜ" title="Vertragsform"/>
-						<label for="ANÜ">ANÜ</label>
+						<input type="radio" name="Vertragsform" id="ANUE" value="ANUE" title="Vertragsform"/>
+						<label for="ANUE">ANÜ</label>
 						<input type="radio" name="Vertragsform" id="offen" value="offen" title="Vertragsform"/>
 						<label for="offen">offen</label>
 					</div>
@@ -394,7 +396,17 @@ form.form-schulung .in-textarea {
 					
 					
 				 </div>
-				 
+				<div class="row mg-top-1">
+				  <div class="col-lg-1 col-md-1">
+						<label for="Projektbeschreibung">Projektbeschreibung</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<textarea name="Projektbeschreibung" id="Projektbeschreibung" rows ="5" cols="100" class="form-control"></textarea>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+					</div>
+					
 				 <div class="row mg-top-1">
 				 <div class="col-lg-2 col-md-2">
 						<label for="VK">Verkaufspreis/Abrechnungsmodalität</label>
@@ -405,14 +417,7 @@ form.form-schulung .in-textarea {
 					
 				 
 				 
-				 <div class="col-lg-1 col-md-1">
-						<label for="Projektbeschreibung">Projektbeschreibung</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<textarea name="Projektbeschreibung" id="Projektbeschreibung" rows ="5" class="form-control"></textarea>
-					</div>
-					<div class="col-lg-8 col-md-8">
-					</div>
+				 
 					</div>
 					
 					
@@ -671,6 +676,8 @@ form.form-schulung .in-textarea {
 							<option value="mmeinke">Michael Meinke</option>
 							<option value="mruettiger">Michael Rüttiger</option>
 							<option value="rgreis">Ralf Greis</option>
+							<option value="jhaas">Julia Haas</option>
+							<option value="tkrobs">Tobias Krobs</option>
 						</select>
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
@@ -740,6 +747,12 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="Tarif" id="Tarif" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<label for="IgmTarif">IGM-Tarif</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="IgmTarif" id="IgmTarif" class="form-control input-sm"/>
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
