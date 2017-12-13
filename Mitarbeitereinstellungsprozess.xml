@@ -230,9 +230,25 @@ form.form-schulung .in-textarea {
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
 			
+			
+			<div class="section" id="section_13">
+	
+				<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="Hinweis">Achtung!!!!!:</label>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<span id="Hinweis">Bewerber muss umgehend das Polizeiliche Fürhungszeugnis beantragen und zuschicken - ansonsten kein Kundenauftrag möglich!!!!!</span>
+					</div>
+				</div>	
+	
+	
+			</div>
 				
 				
-	<div class="section" id="section_1">
+			<div class="section" id="section_1">
+			
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Mitarbeiterdaten</span>
@@ -254,9 +270,9 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Titel">Titel</label>
 					</div>
@@ -270,9 +286,9 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="nachname">Nachname</label>
 					</div>
@@ -280,15 +296,15 @@ form.form-schulung .in-textarea {
 						<input type="text" name="nachname" id="nachname" class="form-control input-sm"/>
 					</div>
 					<div class="col-lg-1 col-md-1 ">
-					<label for="vorname">Vorname</label>
+						<label for="vorname">Vorname</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="vorname" id="vorname" class="form-control input-sm"/>
 					</div>
-					</div>
+				</div>
 					
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Mail_Adresse">E-Mail Adresse</label>
 					</div>
@@ -297,16 +313,17 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
-				 </div>
+				</div>
 				
 					
 					<!--2 Leerzeilen-->
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
 				</div>
+				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
@@ -314,21 +331,22 @@ form.form-schulung .in-textarea {
 				</div>
 					
 					
-	</div>				
+			</div>				
 					
 					
 					
 					
-	<div class="section" id="section_2">				
-					<div class="row">
+			<div class="section" id="section_2">
+			
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Kundenspezifische Daten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Kunde">Kunde</label>
 					</div>
@@ -355,18 +373,18 @@ form.form-schulung .in-textarea {
 						<input type="text" name="aKunde" id="aKunde" class="form-control input-sm"/>
 					</div>
 					
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Abteilung">Abteilung</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="Abteilung" id="Abteilung" class="form-control input-sm"/>
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					
 					<div class="col-lg-1 col-md-1 ">
 						<label for="Vertragsform">Vertragsform</label>
@@ -382,9 +400,9 @@ form.form-schulung .in-textarea {
 					
 					<div class="col-lg-8 col-md-8">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Stellenbezeichnung">Stellenbezeichnung</label>
 					</div>
@@ -393,9 +411,8 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
-					
-					
-				 </div>
+				</div>
+				
 				<div class="row mg-top-1">
 				  <div class="col-lg-1 col-md-1">
 						<label for="Projektbeschreibung">Projektbeschreibung</label>
@@ -405,20 +422,16 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
-					</div>
+				</div>
 					
-				 <div class="row mg-top-1">
-				 <div class="col-lg-2 col-md-2">
+				<div class="row mg-top-1">
+					<div class="col-lg-2 col-md-2">
 						<label for="VK">Verkaufspreis/Abrechnungsmodalität</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<textarea name="VK" id="VK" rows ="5" class="form-control"></textarea>
 					</div>
-					
-				 
-				 
-				 
-					</div>
+				</div>
 					
 					
 				 
@@ -430,23 +443,24 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
+				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
 				</div>
-	</div>
+			</div>
 
-	<div class="section" id="section_3">
+			<div class="section" id="section_3">
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Mitarbeitervertragsdaten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
-					</div>
+				</div>
 				
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-2 col-md-2">
 						<label for="Einstellungsdatum">Projektbeginn/Einstellungsdatum</label>
 					</div>
@@ -479,7 +493,7 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
-			<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Gehalt">Gehalt brutto(€/Monat)</label>
 					</div>
@@ -504,10 +518,12 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
+				 
 				 <div class="row">
 					<div class="col-lg-12 col-md-12">
-				  </div>
+					</div>
 				 </div>
+				 
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1 mg-top-1">
 						<label for="Einsatzort">Einsatzort</label>
@@ -523,9 +539,9 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
@@ -536,24 +552,24 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-	</div>
+			</div>
 
-	<div class="section" id="section_4">
-					<div class="row">
+			<div class="section" id="section_4">
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Sicherheitsüberprüfung</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
 				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1 ">
 						<label>SÜ-benötigt</label>
 					</div>
@@ -575,7 +591,7 @@ form.form-schulung .in-textarea {
 						<label for="S3">S3</label>
 					</div>
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
@@ -585,15 +601,15 @@ form.form-schulung .in-textarea {
 					
 					<div class="col-lg-8 col-md-8">
 					</div>
-				 </div>
+				</div>
 					
-	</div>				
+			</div>				
 
 				
 				
 			
 			
-	<div class="section" id="section_5">			
+			<div class="section" id="section_5">			
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Recruiter">zuständiger Recruiter</label>
@@ -626,18 +642,18 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-	</div>			
+			</div>			
 	
-	<div class="section" id="section_6">
-					<div class="row">
+			<div class="section" id="section_6">
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Vertragsunterschriftstermindaten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
@@ -685,7 +701,7 @@ form.form-schulung .in-textarea {
 				</div>
 				
 				
-				<!--section5-->
+				
 				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
@@ -698,26 +714,26 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-	</div>
+			</div>
 
-	<div class="section" id="section_7">
-					<div class="row">
+			<div class="section" id="section_7">
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Daten für interne Vorbereitung</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row">
+				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
 					</div>
 				</div>
 				
-	</div>
+			</div>
 
-	<div class="section" id="section_8">
+			<div class="section" id="section_8">
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Personalnummer">PersonalNummer</label>
@@ -739,8 +755,9 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-	</div>
-	<div class="section" id="section_9">	
+			</div>
+			
+			<div class="section" id="section_9">	
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="Tarif">E-Kategorie(Tarif)</label>
@@ -757,12 +774,12 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-	</div>			
+			</div>			
 				
 				
-	<div class="section" id="section_10">			
+			<div class="section" id="section_10">			
 				
-		<div class="row mg-top-1">
+				<div class="row mg-top-1">
 				
 					<div class="col-lg-1 col-md-1">
 						<label for="Wert">Erklärung:</label>
@@ -770,16 +787,12 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<span id="Wert">Über den Reiter "Dokumente", die zutreffende Dokumentencheckliste hochladen</span>
 					</div>
-					</div>	
-			
+				</div>			
+			</div>
 
-
-			
-	</div>
-
-	<div class="section" id="section_11">			
+			<div class="section" id="section_11">			
 				
-		<div class="row mg-top-1">
+				<div class="row mg-top-1">
 				
 					<div class="col-lg-1 col-md-1">
 						<label for="Erklaerung">Erklärung:</label>
@@ -787,16 +800,12 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<span id="Erklaerung">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die aufgezählten Dokumente dem Vertrag beilegen und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Dokument anhängen </span>
 					</div>
-					</div>	
-			
-
-
-			
-	</div>
+				</div>	
+			</div>
 	
-	<div class="section" id="section_12">			
+			<div class="section" id="section_12">			
 				
-		<div class="row mg-top-1">
+				<div class="row mg-top-1">
 				
 					<div class="col-lg-1 col-md-1">
 						<label for="Erklaerung2">Erklärung:</label>
@@ -804,13 +813,66 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<span id="Erklaerung2">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die zurückerhaltenen Dokumenta digitalisieren und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Dokument anhängen </span>
 					</div>
-					</div>	
-			
-
-
-			
-	</div>
+				</div>
 			</div>
+			
+			
+			<div class="section" id="section_14">
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kalkulatorische Informationen</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="RoErProzent">Rohertrag in %</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="RoErProzent" id="RoErProzent" class="form-control input-sm"/>
+					</div>
+					
+					<div class="col-lg-1 col-md-1">
+						<label for="RoErSumme">Rohertrag als Summe</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="RoErSumme" id="RoErSumme" class="form-control input-sm"/>
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">	
+					<div class="col-lg-1 col-md-1">
+						<label for="SpezialKonditionen">Besondere Konditionen</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<textarea name="SpezialKonditionen" id="SpezialKonditionen" rows ="5" cols="75" class="form-control"></textarea>
+					</div>
+				</div>	
+					
+					
+			</div>
+				
+				
+			
+			
+			
+			
+		</div>
 			<!-- END FORM BODY -->
 
 		</div>
