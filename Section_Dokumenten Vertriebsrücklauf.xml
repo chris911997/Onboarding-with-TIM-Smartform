@@ -1,0 +1,46 @@
+<section-node-mapping>
+
+  <node-mapping>
+    <section name="section_1">
+      <read assignment="*"/>
+      <write assignment="*"/>
+    </section>
+	
+	<!--section für Siemens-->
+	<section name="section_2">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	<!--section für BWI-->
+	<section name="section_3">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+
+	
+  </node-mapping>
+  
+  
+  
+  <node-mapping name="Dokumente und Foto fuer Siemens anhaengen">
+	 <section name="section_2">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>
+	
+	
+  </node-mapping>
+  
+ 
+  <node-mapping name="Dokumente und Foto fuer BWI anhaengen">
+ 	 
+	
+	<section name="section_3">
+      <read assignment=""/>
+      <write assignment=""/>
+    </section>   
+  </node-mapping>
+ 
+ 
+</section-node-mapping>
