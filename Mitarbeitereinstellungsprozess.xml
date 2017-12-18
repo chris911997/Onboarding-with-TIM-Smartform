@@ -811,7 +811,7 @@ form.form-schulung .in-textarea {
 						<label for="Erklaerung2">Erklärung:</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<span id="Erklaerung2">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die zurückerhaltenen Dokumenta digitalisieren und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Dokument anhängen </span>
+						<span id="Erklaerung2">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die zurückerhaltenen Dokumenta digitalisieren und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Prozess anhängen </span>
 					</div>
 				</div>
 			</div>
