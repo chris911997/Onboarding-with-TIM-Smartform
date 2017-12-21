@@ -590,18 +590,21 @@ form.form-schulung .in-textarea {
 					
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1 ">
-						<label>SÜ-benötigt</label>
+						<label for="SUE">SÜ-benötigt</label>
 					</div>
-					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="SUE" id="SUE"/>
-						<label for="SUE">JA</label>
+					<div class="col-lg-1 col-md-1 ">
+						<input type="radio" name="SUE" id="SueJa" value="SueJa" title="SUE"/>
+						<label for="SueJa">ja&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="SUE" id="SueNein" value="SueNein" title="SUE"/>
+						<label for="SueNein">nein&#160;&#160;&#160;&#160;</label>
+						
 					</div>
 					
 					
 					<div class="col-lg-1 col-md-1 ">
 						<label for="Sicherheitsstufe">Sicherheitsstufe</label>
 					</div>
-					<div class="col-lg-1 col-md-1 ">
+					<div class="col-lg-2 col-md-2 ">
 						<input type="radio" name="Sicherheitsstufe" id="S1" value="S1" title="Sicherheitsstufe"/>
 						<label for="S1">S1&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="Sicherheitsstufe" id="S2" value="S2" title="Sicherheitsstufe"/>
