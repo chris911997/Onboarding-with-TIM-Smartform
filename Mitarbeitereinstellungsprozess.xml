@@ -236,11 +236,10 @@ form.form-schulung .in-textarea {
 				<div class="row mg-top-1">
 				
 					<div class="col-lg-1 col-md-1">
-						<label for="Hinweis">Achtung!!!!!:</label>
 						<label for="hinweis">Achtung!!!!!:</label>
 					</div>
 					<div class="col-lg-3 col-md-3">
-						<span id="Hinweis">Bewerber muss umgehend das Polizeiliche Fürhungszeugnis beantragen und zuschicken - ansonsten kein Kundenauftrag möglich!!!!!</span>
+						<span id="hinweis">Bewerber muss umgehend das Polizeiliche Fürhungszeugnis beantragen und zuschicken - ansonsten kein Kundenauftrag möglich!!!!!</span>
 					</div>
 				</div>	
 	
