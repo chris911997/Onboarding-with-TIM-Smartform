@@ -230,12 +230,22 @@ form.form-schulung .in-textarea {
 
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
-			<div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="Geschlecht">Geschlecht</label>
+			
+			
+			<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Mitarbeiterdaten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<select name="Geschlecht" id="Geschlecht" class="form-control">
+					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="geschlecht">Geschlecht</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<select name="geschlecht" id="geschlecht" class="form-control">
 							<option value="">Bitte Wählen</option>
 							<option value="herr">Herr</option>
 							<option value="frau">Frau</option>
@@ -243,25 +253,25 @@ form.form-schulung .in-textarea {
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Titel">Titel</label>
+						<label for="titel">Titel</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<select name="Titel" id="Titel" class="form-control">
+						<select name="titel" id="titel" class="form-control">
 							<option value="">Bitte Wählen</option>
-							<option value=""> </option>
-							<option value="Wert_1">Dr.</option>
-							<option value="Wert_2">Prof. Dr.</option>
+							<option value="keinTitel">kein Titel </option>
+							<option value="wert_1">Dr.</option>
+							<option value="wert_2">Prof. Dr.</option>
 						</select>
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
 					</div>
-					</div>
+				</div>
 					
-					<div class="row mg-top-1">
+				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
 						<label for="nachname">Nachname</label>
 					</div>
@@ -269,13 +279,26 @@ form.form-schulung .in-textarea {
 						<input type="text" name="nachname" id="nachname" class="form-control input-sm"/>
 					</div>
 					<div class="col-lg-1 col-md-1 ">
-					<label for="vorname">Vorname</label>
+						<label for="vorname">Vorname</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="vorname" id="vorname" class="form-control input-sm"/>
 					</div>
-					</div>
+				</div>
 					
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="mailAdresse">E-Mail Adresse</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="mailAdresse" id="mailAdresse" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+				</div>
+				
+				
 					<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<br/>
@@ -289,6 +312,101 @@ form.form-schulung .in-textarea {
 				</div>
 				
 				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kundenspezifische Daten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="kunde">Kunde</label>
+					</div>
+					<div class="col-lg-4 col-md-4 ">
+						
+						<input type="radio" name="kunde" id="siemens" value="siemens" title="kunde"/>
+						<label for="siemens">Siemens&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="sfs" value="sfs" title="kunde"/>
+						<label for="sfs">SFS&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="bwi" value="bwi" title="kunde"/>
+						<label for="bwi">BWI&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="man" value="man" title="kunde"/>
+						<label for="man">MAN&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="allianz" value="allianz" title="kunde"/>
+						<label for="allianz">Allianz&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="eurofighter" value="eurofighter" title="kunde"/>
+						<label for="eurofighter">Eurofighter&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="andererKunde" value="andererKunde" title="kunde"/>
+						<label for="andererKunde">anderer Kunde</label>
+						
+					</div>
+					
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="aKunde" id="aKunde" class="form-control input-sm"/>
+					</div>
+					
+				</div>
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="abteilung">Abteilung</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="abteilung" id="abteilung" class="form-control input-sm"/>
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">
+					
+					<div class="col-lg-1 col-md-1 ">
+						<label for="vertragsform">Vertragsform</label>
+					</div>
+					<div class="col-lg-2 col-md-2 ">
+						<input type="radio" name="vertragsform" id="dienstleistung" value="dienstleistung" title="vertragsform"/>
+						<label for="dienstleistung">Dienstleistung</label>
+						<input type="radio" name="vertragsform" id="anue" value="anue" title="vertragsform"/>
+						<label for="anue">ANÜ</label>
+						<input type="radio" name="vertragsform" id="offen" value="offen" title="vertragsform"/>
+						<label for="offen">offen</label>
+					</div>
+					
+					<div class="col-lg-8 col-md-8">
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="stellenbezeichnung">Stellenbezeichnung</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="stellenbezeichnung" id="stellenbezeichnung" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-8 col-md-8">
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+					<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Dokumente</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+				
+				<div class="row">
 					<div class="col-lg-10 col-md-10 schulung-subhead">
 						<span>Rückluafpflichtige Dokumente (bei vorhandensein "ankreuzen")</span>
 					</div>
@@ -298,10 +416,10 @@ form.form-schulung .in-textarea {
 				
 					<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Personalausweis">Personalausweis</label>
+						<label for="personalausweis">Personalausweis</label>
 					</div>
 					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="Personalausweis" id="Personalausweis"/>
+						<input type="checkbox" value="true" name="personalausweis" id="personalausweis"/>
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
@@ -309,10 +427,10 @@ form.form-schulung .in-textarea {
 				 
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Buergelauskunft">Buergelauskunft</label>
+						<label for="buergelauskunft">Buergelauskunft</label>
 					</div>
 					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="Buergelauskunft" id="Buergelauskunft"/>
+						<input type="checkbox" value="true" name="buergelauskunft" id="buergelauskunft"/>
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
@@ -320,10 +438,10 @@ form.form-schulung .in-textarea {
 				 
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Checkliste">Checkliste zur Einst.</label>
+						<label for="checkliste">Checkliste zur Einst.</label>
 					</div>
 					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="Checkliste" id="Checkliste"/>
+						<input type="checkbox" value="true" name="checkliste" id="checkliste"/>
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
@@ -331,36 +449,17 @@ form.form-schulung .in-textarea {
 				 
 				 <div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="Fuehrerschein">Fuehrerschein</label>
+						<label for="fuehrerschein">Fuehrerschein</label>
 					</div>
 					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="Fuehrerschein" id="Fuehrerschein"/>
-					</div>
-					<div class="col-lg-9 col-md-9">
-					</div>
-				 </div>
-				 
-				 <div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="DokCheckliste">Dokumenten Checkliste vollständig</label>
-					</div>
-					<div class="col-lg-1 col-md-1">
-						<input type="checkbox" value="true" name="DokCheckliste" id="DokCheckliste"/>
+						<input type="checkbox" value="true" name="fuehrerschein" id="fuehrerschein"/>
 					</div>
 					<div class="col-lg-9 col-md-9">
 					</div>
 				 </div>
 				 
 				 
-				 <div class="row mg-top-1">
-				
-					<div class="col-lg-1 col-md-1">
-						<label for="Erklaerung">Zusätzlich:</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<span id="Erklaerung">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die zurückerhaltenen Dokumenta digitalisieren und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Prozess anhängen </span>
-					</div>
-				</div>
+				 
 				 
 				 
 				 

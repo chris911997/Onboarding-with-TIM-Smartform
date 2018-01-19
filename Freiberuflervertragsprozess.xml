@@ -13,7 +13,7 @@
 }
 
 form.form-schulung .container-schulung {
-	color: #7B61A1 !important;
+	color: #7f7f7f !important;
 	
 }
 
@@ -211,7 +211,7 @@ form.form-schulung .in-textarea {
 
 			<div class="row schulung-top-bar">
 				<div class="col-lg-8 col-md-8">
-							<span>Buchhaltung Mitarbeiteranlage</span>
+							<span>Freiberuflervertragsprozess</span>
 
 				</div>
 
@@ -222,7 +222,6 @@ form.form-schulung .in-textarea {
 				</div>
 			</div>
 
-		
 		<!-- END TOP BAR -->
 
 		<!-- START FORM-->
@@ -230,10 +229,29 @@ form.form-schulung .in-textarea {
 
 			<!-- START FORM BODY -->
 			<div class="form-body-innogy col-lg-12 col-md-12">
-
-			<div class="row">
+			
+			
+			<div class="section" id="section_13">
+	
+				<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="hinweis">Achtung!!!!!:</label>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<span id="hinweis">Bewerber muss umgehend das Polizeiliche Fürhungszeugnis beantragen und zuschicken - ansonsten kein Kundenauftrag möglich!!!!!</span>
+					</div>
+				</div>	
+	
+	
+			</div>
+				
+				
+			<div class="section" id="section_1">
+			
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
-						<span>Mitarbeiterdaten</span>
+						<span>Freiberuflerdaten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
@@ -277,7 +295,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2">
 						<input type="text" name="nachname" id="nachname" class="form-control input-sm"/>
 					</div>
-					<div class="col-lg-1 col-md-1 ">
+					<div class="col-lg-1 col-md-1">
 						<label for="vorname">Vorname</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
@@ -312,6 +330,14 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 					
+					
+			</div>				
+					
+					
+					
+					
+			<div class="section" id="section_2">
+			
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Kundenspezifische Daten</span>
@@ -366,8 +392,8 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-2 col-md-2 ">
 						<input type="radio" name="vertragsform" id="dienstleistung" value="dienstleistung" title="vertragsform"/>
 						<label for="dienstleistung">Dienstleistung</label>
-						<input type="radio" name="vertragsform" id="anue" value="anue" title="vertragsform"/>
-						<label for="anue">ANÜ</label>
+						<input type="radio" name="vertragsform" id="werkvertrag" value="werkvertrag" title="vertragsform"/>
+						<label for="werkvertrag">Werkvertrag</label>
 						<input type="radio" name="vertragsform" id="offen" value="offen" title="vertragsform"/>
 						<label for="offen">offen</label>
 					</div>
@@ -398,7 +424,14 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 					
-				
+				<div class="row mg-top-1">
+					<div class="col-lg-2 col-md-2">
+						<label for="vk">Verkaufspreis/Abrechnungsmodalität</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<textarea name="vk" id="vk" rows ="5" class="form-control"></textarea>
+					</div>
+				</div>
 				
 				<div class="row mg-top-1">
 					
@@ -435,40 +468,86 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
-					
+			</div>
+
+			<div class="section" id="section_3">
 				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
-						<span>Mitarbeitervertragsdaten</span>
+						<span>Freiberuflervertragsdaten</span>
 					</div>
 					<div class="col-lg-2 col-md-2">
 					</div>
 				</div>
 				
 				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label class="text-left" for="vertragsBeginn">Vertragsbeginn</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<input type="text" name="vertragsBeginn" id="vertragsBeginn" class="form-control datepicker in-datepicker"/>
+					</div>
+					
+					
+					<div class="col-lg-1 col-md-1">
+						<label for="vertragsEnde">Vertragsende</label>
+					</div>
+					<div class="col-lg-1 col-md-1 ">
+						<input type="text" name="vertragsEnde" id="vertragsEnde" class="form-control datepicker in-datepicker"/>
+					</div>
+					
 					<div class="col-lg-2 col-md-2">
-						<label for="einstellungsdatum">Projektbeginn/Einstellungsdatum</label>
+						<label for="leistungsumfang">voraussichtlicher Leistungsumfang</label>
 					</div>
-					<div class="col-lg-1 col-md-1 ">
-						<input type="text" name="einstellungsdatum" id="einstellungsdatum" class="form-control datepicker in-datepicker"/>
-					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="leistungsumfang" id="leistungsumfang" class="form-control input-sm"/>
+					</div>					
 					<div class="col-lg-9 col-md-9">
 					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="stundensatz">Stundensatz</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<input type="text" name="stundensatz" id="stundensatz" class="form-control input-sm"/>
+					</div>
 					
-					<div class="col-lg-1 col-md-1 mg-top-1">
-						<label for="befristung">Laufzeit/Befristung</label>
+					<div class="col-lg-1 col-md-1">
+						<label for="rufbereitschaft">Rufbereitschaft</label>
 					</div>
-					<div class="col-lg-2 col-md-2 mg-top-1">
-						<input type="radio" name="befristung" id="befristung_nein" value="nein" title="befristung"/>
-						<label for="befristung_nein">unbefristet&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
-						<input type="radio" name="befristung" id="befristung_ja" value="ja" title="befristung"/>
-						<label for="befristung_ja">befristet bis</label>
+					<div class="col-lg-2 col-md-2 ">
+						<input type="radio" name="rufbereitschaft" id="rufbereitschaftJa" value="rufbereitschaftJa" title="rufbereitschaft"/>
+						<label for="rufbereitschaftJa">Ja&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="rufbereitschaft" id="rufbereitschaftNein" value="rufbereitschaftNein" title="rufbereitschaft"/>
+						<label for="rufbereitschaftNein">nein&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="rufbereitschaft" id="rufbereitschaftOffen" value="rufbereitschaftOffen" title="rufbereitschaft"/>
+						<label for="rufbereitschaftOffen">Offen</label>
 					</div>
 					
-					<div class="col-lg-1 col-md-1 ">
-						<input type="text" name="befristungsdatum" id="befristungsdatum" class="form-control datepicker in-datepicker"/>
+					<div class="col-lg-2 col-md-2">
+						<label for="stundensatzRufbereitschaft">Stundensatz Rufbereitschaft</label>
 					</div>
-					<div class="col-lg-9 col-md-9">
+					<div class="col-lg-1 col-md-1">
+						<input type="text" name="stundensatzRufbereitschaft" id="stundensatzRufbereitschaft" class="form-control input-sm"/>
 					</div>
+					
+				</div>
+				
+				<div class="row mg-top-1">
+					
+					<div class="col-lg-1 col-md-1">
+						<label for="zahlungsziel">Zahlungsziel</label>
+					</div>
+					<div class="col-lg-3 col-md-3 ">
+						<input type="radio" name="zahlungsziel" id="sechszigTage" value="sechszigTage" title="zahlungsziel"/>
+						<label for="sechszigTage">60 Tage ohne Abzüge&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="zahlungsziel" id="dreißigTage" value="dreißigTage" title="zahlungsziel"/>
+						<label for="dreißigTage">30 Tage abzüglich 2% Skonto&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="zahlungsziel" id="zehnTage" value="zehnTage" title="zahlungsziel"/>
+						<label for="zehnTage">10 Tage abzüglich 3% Skonto</label>
+					</div>
+				
 				</div>
 				
 				<div class="row">
@@ -477,31 +556,7 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
-				<div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="gehalt">Gehalt brutto(€/Monat)</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="gehalt" id="gehalt" class="form-control input-sm"/>
-					</div>
-					
-					
-					<div class="col-lg-1 col-md-1">
-						<label for="arbeitszeit">Arbeitszeit(Std/Woche)</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="arbeitszeit" id="arbeitszeit" class="form-control input-sm"/>
-					</div>
-					
-					<div class="col-lg-1 col-md-1">
-						<label for="urlaub">Urlaub</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="urlaub" id="urlaub" class="form-control input-sm"/>
-					</div>
-					<div class="col-lg-8 col-md-8">
-					</div>
-				 </div>
+				
 				 
 				 <div class="row">
 					<div class="col-lg-12 col-md-12">
@@ -512,9 +567,9 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-1 col-md-1 mg-top-1">
 						<label for="einsatzort">Einsatzort</label>
 					</div>
-					<div class="col-lg-2 col-md-2 mg-top-1">
+					<div class="col-lg-2 col-md-2">
 						<input type="radio" name="einsatzort" id="muenchen" value="muenchen" title="einsatzort"/>
-						<label for="muenchen">München&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+						<label for="muenchen">München&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="einsatzort" id="andererOrt" value="andererOrt" title="einsatzort"/>
 						<label for="andererOrt">anderer Ort</label>
 					</div>
@@ -536,8 +591,175 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
+			</div>
+
+			<div class="section" id="section_4">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Sicherheitsüberprüfung</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+					
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1 ">
+						<label for="sue">SÜ-benötigt</label>
+					</div>
+					<div class="col-lg-1 col-md-1 ">
+						<input type="radio" name="sue" id="sueJa" value="sueJa" title="sue"/>
+						<label for="sueJa">ja&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="sue" id="sueNein" value="sueNein" title="sue"/>
+						<label for="sueNein">nein&#160;&#160;&#160;&#160;</label>
+						
+					</div>
+					
+					
+					<div class="col-lg-1 col-md-1 ">
+						<label for="sicherheitsstufe">Sicherheitsstufe</label>
+					</div>
+					<div class="col-lg-2 col-md-2 ">
+						<input type="radio" name="sicherheitsstufe" id="s1" value="s1" title="sicherheitsstufe"/>
+						<label for="s1">S1&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="sicherheitsstufe" id="s2" value="s2" title="sicherheitsstufe"/>
+						<label for="s2">S2&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="sicherheitsstufe" id="s3" value="s3" title="sicherheitsstufe"/>
+						<label for="s3">S3</label>
+					</div>
+					
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
 				 
-				 <div class="row">
+					
+					
+					<div class="col-lg-8 col-md-8">
+					</div>
+				</div>
+					
+			</div>				
+
+				
+				
+			
+			
+			<div class="section" id="section_5">			
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="recruiter">zuständiger Recruiter</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<select name="recruiter" id="recruiter" class="form-control">
+							<option value="group(recruiting)">Recruiting-Team</option>
+							<option value="user(kneckermann)">Katia N.</option>
+							<option value="user(rfrenzel)">Rico F.</option>
+							<option value="user(mmeinke)">Michael M.</option>
+							<option value="user(tkrobs)">Tobias K.</option>
+							<option value="user(mboeswirth)">Michael B.</option>
+							<option value="user(mdiem)">Michael D.</option>
+							<option value="user(elehermaier)">Eva L.</option>
+						</select>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+			</div>			
+	
+			<div class="section" id="section_6">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Vertragsunterschriftstermindaten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+					
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="vertragstermin">Vertragstermin/Uhrzeit</label>
+					</div>
+					<div class="col-lg-2 col-md-2 ">
+						<input type="text" name="vertragstermin" id="vertragstermin" class="form-control datepicker in-datepicker"/>
+					</div>
+					
+					<div class="col-lg-2 col-md-2">
+						<input type="time" name="uhrzeit" id="uhrzeit" class="form-control input-sm"/>
+					</div>
+					<div class="col-lg-9 col-md-9">
+					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-2 col-md-2">
+						<label for="termindurchführender">Vertragstermindurchführender</label>
+					</div>
+					<div class="col-lg-1 col-md-1">
+						<select name="termindurchführender" id="Termindurchführender" class="form-control">
+							<option value="">Bitte Wählen</option>
+							<option value="mmeinke">Michael Meinke</option>
+							<option value="mruettiger">Michael Rüttiger</option>
+							<option value="rgreis">Ralf Greis</option>
+							<option value="jhaas">Julia Haas</option>
+							<option value="tkrobs">Tobias Krobs</option>
+						</select>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mg-top-1">
+					</div>
+				</div>
+				
+				
+				
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="section_7">
+				<div class="row">
 					<div class="col-lg-10 col-md-10 in-subhead-orange">
 						<span>Daten für interne Vorbereitung</span>
 					</div>
@@ -551,12 +773,15 @@ form.form-schulung .in-textarea {
 					</div>
 				</div>
 				
+			</div>
+
+			<div class="section" id="section_8">
 				<div class="row mg-top-1">
 					<div class="col-lg-1 col-md-1">
-						<label for="personalnummer">PersonalNummer</label>
+						<label for="lieferantennummer">Lieferantenummer</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<input type="text" name="personalnummer" id="personalnummer" class="form-control input-sm"/>
+						<input type="text" name="lieferantennummer" id="lieferantennummer" class="form-control input-sm"/>
 					</div>
 					<div class="col-lg-8 col-md-8">
 					</div>
@@ -572,31 +797,107 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-8 col-md-8">
 					</div>
 				 </div>
-				 
-				 <div class="row mg-top-1">
-					<div class="col-lg-1 col-md-1">
-						<label for="tarif">E-Kategorie(Tarif)</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="tarif" id="tarif" class="form-control input-sm"/>
-					</div>
-					<div class="col-lg-1 col-md-1">
-						<label for="igmTarif">IGM-Tarif</label>
-					</div>
-					<div class="col-lg-2 col-md-2">
-						<input type="text" name="igmTarif" id="igmTarif" class="form-control input-sm"/>
-					</div>
-					<div class="col-lg-8 col-md-8">
-					</div>
-				 </div>
-
-			
-			
-			
-
-
-
 			</div>
+			
+					
+				
+				
+			<div class="section" id="section_10">			
+				
+				<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="wert">Erklärung:</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<span id="wert">Über den Reiter "Dokumente", die zutreffende Dokumentencheckliste hochladen</span>
+					</div>
+				</div>			
+			</div>
+
+			<div class="section" id="section_11">			
+				
+				<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="erklaerung">Erklärung:</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<span id="erklaerung">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die aufgezählten Dokumente dem Vertrag beilegen und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Prozess anhängen </span>
+					</div>
+				</div>	
+			</div>
+	
+			<div class="section" id="section_12">			
+				
+				<div class="row mg-top-1">
+				
+					<div class="col-lg-1 col-md-1">
+						<label for="erklaerung2">Erklärung:</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<span id="erklaerung2">Im Reiter Dokumente die Chekliste herunterladen. Anschließend die zurückerhaltenen Dokumenta digitalisieren und abhaken. Nun das Dokument lokal auf dem Rechner speichern und wieder an den Prozess anhängen </span>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="section" id="section_14">
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<br/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kalkulatorische Informationen</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+				
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="roErProzent">Rohertrag in %</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="roErProzent" id="roErProzent" class="form-control input-sm"/>
+					</div>
+					
+					<div class="col-lg-1 col-md-1">
+						<label for="roErSumme">Rohertrag als Summe</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<input type="text" name="roErSumme" id="roErSumme" class="form-control input-sm"/>
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">	
+					<div class="col-lg-1 col-md-1">
+						<label for="spezialKonditionen">Besondere Konditionen</label>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<textarea name="spezialKonditionen" id="spezialKonditionen" rows ="5" cols="75" class="form-control"></textarea>
+					</div>
+				</div>	
+					
+					
+			</div>
+				
+				
+			
+			
+			
+			
+		</div>
 			<!-- END FORM BODY -->
 
 		</div>
@@ -604,3 +905,4 @@ form.form-schulung .in-textarea {
 	</div>
 
 </form>
+
