@@ -534,21 +534,7 @@ form.form-schulung .in-textarea {
 					
 				</div>
 				
-				<div class="row mg-top-1">
-					
-					<div class="col-lg-1 col-md-1">
-						<label for="zahlungsziel">Zahlungsziel</label>
-					</div>
-					<div class="col-lg-3 col-md-3 ">
-						<input type="radio" name="zahlungsziel" id="sechszigTage" value="sechszigTage" title="zahlungsziel"/>
-						<label for="sechszigTage">60 Tage ohne Abzüge&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
-						<input type="radio" name="zahlungsziel" id="dreißigTage" value="dreißigTage" title="zahlungsziel"/>
-						<label for="dreißigTage">30 Tage abzüglich 2% Skonto&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
-						<input type="radio" name="zahlungsziel" id="zehnTage" value="zehnTage" title="zahlungsziel"/>
-						<label for="zehnTage">10 Tage abzüglich 3% Skonto</label>
-					</div>
 				
-				</div>
 				
 				<div class="row">
 					<div class="col-lg-12 col-md-12">

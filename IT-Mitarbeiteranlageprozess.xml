@@ -311,6 +311,37 @@ form.form-schulung .in-textarea {
 						<br/>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-10 col-md-10 in-subhead-orange">
+						<span>Kundenspezifische Daten</span>
+					</div>
+					<div class="col-lg-2 col-md-2">
+					</div>
+				</div>
+					
+				<div class="row mg-top-1">
+					<div class="col-lg-1 col-md-1">
+						<label for="kunde">Kunde</label>
+					</div>
+					<div class="col-lg-4 col-md-4 ">
+						
+						<input type="radio" name="kunde" id="siemens" value="Siemens" title="kunde"/>
+						<label for="siemens">Siemens&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="sfs" value="SFS" title="kunde"/>
+						<label for="sfs">SFS&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="bwi" value="BWI" title="kunde"/>
+						<label for="bwi">BWI&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="man" value="MAN" title="kunde"/>
+						<label for="man">MAN&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="allianz" value="Allianz" title="kunde"/>
+						<label for="allianz">Allianz&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="eurofighter" value="Eurofighter" title="kunde"/>
+						<label for="eurofighter">Eurofighter&#160;&#160;&#160;&#160;</label>
+						<input type="radio" name="kunde" id="andererKunde" value="anderer Kunde" title="kunde"/>
+						<label for="andererKunde">anderer Kunde</label>
+						
+					</div>
+				</div>
 			
 			
 			
