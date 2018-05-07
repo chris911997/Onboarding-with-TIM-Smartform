@@ -350,7 +350,7 @@ form.form-schulung .in-textarea {
 					<div class="col-lg-1 col-md-1">
 						<label for="kunde">Kunde</label>
 					</div>
-					<div class="col-lg-4 col-md-4 ">
+					<div class="col-lg-3 col-md-3 ">
 						
 						<input type="radio" name="kunde" id="siemens" value="Siemens" title="kunde"/>
 						<label for="siemens">Siemens&#160;&#160;&#160;&#160;</label>
