@@ -364,7 +364,7 @@ form.form-schulung .in-textarea {
 						<label for="allianz">Allianz&#160;&#160;&#160;&#160;</label>
 						<input type="radio" name="kunde" id="eurofighter" value="Eurofighter" title="kunde"/>
 						<label for="eurofighter">Eurofighter&#160;&#160;&#160;&#160;</label>
-						<input type="radio" name="kunde" id="andererKunde" value="anderer Kunde" title="kunde"/>
+						<input type="radio" name="kunde" id="andererKunde" value="andererKunde" title="kunde"/>
 						<label for="andererKunde">anderer Kunde</label>
 						
 					</div>
@@ -822,7 +822,7 @@ form.form-schulung .in-textarea {
 						<label for="wert">Erklärung:</label>
 					</div>
 					<div class="col-lg-2 col-md-2">
-						<span id="wert">Über den Reiter "Dokumente", die zutreffende Dokumentencheckliste hochladen</span>
+						<span id="wert">Über den Reiter "Dokumente", die zutreffende Dokumentencheckliste hochladen. Die Dokumentencheckliste befindet sich in der Securecloud unter CS Vertrieb\TIM-Templates</span>
 					</div>
 				</div>			
 			</div>
